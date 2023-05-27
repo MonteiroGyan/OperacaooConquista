@@ -12,7 +12,8 @@ html{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 50px;
-    left: 95px;
+    left: 15em;
+    align-items: center;
 }
 .card{
     background-color: #272222;
@@ -60,4 +61,7 @@ button > h1:hover{
     position: relative;
     left: 546px;
     margin-bottom: 50px;
+}
+.container{
+   
 }

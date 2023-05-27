@@ -21,6 +21,7 @@ html{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 30px;
+    left: 10em;
 }
 .thumb-int{
     width: 410px;
