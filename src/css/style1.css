@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); 
+
+
+body{
+    margin: 0;
+}
+html{
+    background-color: #993030;
+}
+.title{
+    text-align: center;
+}
+.title > h1{
+    font-family: 'Roboto', sans-serif;
+    color: #272222;
+
+}
+.grid{
+    position: absolute;
+    gap: 140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px;
+}
+.thumb-int{
+    width: 410px;
+    height: 360px;
+}
+.thumb-int > img {
+    width: 100%;
+    cursor: pointer;
+}
+.music{
+    width: 410px;
+    height: auto;
+    background-color: #272222;
+    text-align: center;
+    border-radius: 30px;
+    position: absolute;
+    visibility: hidden;
+}
+.music > img {
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+    
+}
+.card{
+    display: flex;
+}
+button{
+    width: 100px;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    color: #D9D9D9;
+    margin-right: 50px;
+}
+button > h1 {
+    color: #993030;
+}
+button:hover{
+    background-color: #272222;
+    
+}
+button > h1:hover{
+    color: #D9D9D9;
+}
+.buttons{
+    position: relative;
+    left: 635px;
+    margin-bottom: 50px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #D9D9D9;
+}
+a > img{
+    width: 410px;
+    border-radius: 30px 30px 0px 0px;
+
+}
+
+.active{
+         animation: opacity 1s ease-out;
+}
+@keyframes opacity {
+    0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 1;
+  }
+}

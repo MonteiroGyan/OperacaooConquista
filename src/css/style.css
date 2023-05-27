@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+background-color: #f5f5f5;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+flex-direction: column;
+background-color: #993030;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 50px;
+}
+button{
+    border-radius: 20px;
+}
+
+#buttons {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#yes-btn, #no-btn {
+font-size: 24px;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+margin: 0 20px;
+color: #bc00007c;
+background-color: #f8f8ff;
+}
+ #yes-btn {
+
+bottom: 0;
+right: 0;
+font-size: 24px;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+transition: background-color 0.3s ease-in-out;
+z-index: 999;
+}
+
+#yes-btn:hover {
+background-color: #c82333;
+color: #f8f8ff;
+}
+
+.moving {
+position: fixed !important;
+}
